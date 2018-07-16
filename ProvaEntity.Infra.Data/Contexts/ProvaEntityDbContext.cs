@@ -9,7 +9,7 @@ namespace ProvaEntity.Infra.Data.Contexts
 {
     public class ProvaEntityDbContext : DbContext
     {
-        public ProvaEntityDbContext(string connection = "ProvaEntity") : base(connection)
+        public ProvaEntityDbContext() : base(ConfigurationManager.AppSettings.Get("ConnectionStringProvaEntity"))
         {
         }
 

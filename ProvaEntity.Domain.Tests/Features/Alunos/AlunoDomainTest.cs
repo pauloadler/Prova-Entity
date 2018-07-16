@@ -16,52 +16,52 @@ namespace ProvaEntity.Domain.Tests.Features.Alunos
             //_AlunoDefault = AlunoObjectMother.Default;
         }
 
-        [Test]
-        public void Dominio_Aluno_nao_deve_possuir_livro_sem_disponibilidade()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Aluno_nao_deve_possuir_livro_sem_disponibilidade()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Dominio_Aluno_deve_calcular_a_multa_de_atraso_quando_Aluno_ja_tiver_sido_cadastrado()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Aluno_deve_calcular_a_multa_de_atraso_quando_Aluno_ja_tiver_sido_cadastrado()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
         
-        [Test]
-        public void Dominio_Aluno_nao_deve_calcular_a_multa_de_atraso_quando_Aluno_nao_tiver_sido_cadastrado()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Aluno_nao_deve_calcular_a_multa_de_atraso_quando_Aluno_nao_tiver_sido_cadastrado()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Dominio_Aluno_nao_deve_ter_cliente_vazio()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Aluno_nao_deve_ter_cliente_vazio()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Dominio_Aluno_deve_possuir_todos_os_dados_quando_estiverem_corretors_e_validados()
-        {
-            //Action-Arrange
+        //[Test]
+        //public void Dominio_Aluno_deve_possuir_todos_os_dados_quando_estiverem_corretors_e_validados()
+        //{
+        //    //Action-Arrange
             
-            //Assert
-        }
+        //    //Assert
+        //}
     }
 }

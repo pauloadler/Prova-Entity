@@ -13,7 +13,8 @@ namespace ProvaEntity.Domain.Features.Alunos
 
         public override void Validar()
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrEmpty(Nome))
+                throw new AlunoNomeNuloOuVazioExcecao();
         }
     }
 }

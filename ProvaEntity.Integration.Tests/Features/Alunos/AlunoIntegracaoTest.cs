@@ -18,51 +18,51 @@ namespace ProvaEntity.System.Tests.Features.Alunos
             //_alunoDefault = AlunoObjectMother.Padrao;
         }
 
-        [Test]
-        public void Sistema_Deveria_Salvar_Um_Novo_Aluno_E_Retornar_Do_Banco()
-        {
-            //Action-Arrange
+        //[Test]
+        //public void Sistema_Deveria_Salvar_Um_Novo_Aluno_E_Retornar_Do_Banco()
+        //{
+        //    //Action-Arrange
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Sistema_Deveria_Alterar_Um_Aluno_Pelo_Id()
-        {
-            ////Arrange
+        //[Test]
+        //public void Sistema_Deveria_Alterar_Um_Aluno_Pelo_Id()
+        //{
+        //    ////Arrange
 
-            ////Action 
+        //    ////Action 
 
-            ////Assert
-        }
+        //    ////Assert
+        //}
 
-        [Test]
-        public void Sistema_Deveria_Buscar_Um_Aluno_Pelo_Id()
-        {
-            //Arrange 
+        //[Test]
+        //public void Sistema_Deveria_Buscar_Um_Aluno_Pelo_Id()
+        //{
+        //    //Arrange 
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Sistema_Deveria_Buscar_Todos_Os_Aluno()
-        {
-            //Arrange 
+        //[Test]
+        //public void Sistema_Deveria_Buscar_Todos_Os_Aluno()
+        //{
+        //    //Arrange 
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Sistema_Deveria_Deletar_Um_Aluno_Pelo_Id()
-        {
-            //Action
+        //[Test]
+        //public void Sistema_Deveria_Deletar_Um_Aluno_Pelo_Id()
+        //{
+        //    //Action
 
-            //Assert
+        //    //Assert
             
-        }
+        //}
     }
 }

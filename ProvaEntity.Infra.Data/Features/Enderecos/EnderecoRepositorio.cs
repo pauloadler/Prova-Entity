@@ -1,34 +1,48 @@
 ﻿using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
 using ProvaEntity.Domain.Features.Enderecos;
+using ProvaEntity.Infra.Data.Contexts;
 
 namespace ProvaEntity.Infra.Data.Features.Enderecos
 {
     public class EnderecoRepositorio : IEnderecoRepositorio
     {
-        public Endereco Salvar(Endereco entidade)
+        private ProvaEntityDbContext _contexto;
+
+        public EnderecoRepositorio(ProvaEntityDbContext contexto)
         {
-            throw new System.NotImplementedException();
+            _contexto = contexto;
+        }
+
+        public Endereco Salvar(Endereco endereco)
+        {
+            _contexto.Enderecos.Add(endereco);
+            _contexto.SaveChanges();
+
+            return endereco;
         }
 
         public Endereco ObterPorId(long id)
         {
-            throw new System.NotImplementedException();
+            return _contexto.Enderecos.Where(c => c.Id == id).FirstOrDefault();
         }
 
         public IList<Endereco> ObterTodos()
         {
-            throw new System.NotImplementedException();
+            return _contexto.Enderecos.ToList();
         }
 
-        public void Atualizar(Endereco entidade)
+        public void Atualizar(Endereco endereco)
         {
-            throw new System.NotImplementedException();
+            _contexto.Entry(endereco).State = EntityState.Modified;
+            _contexto.SaveChanges();
         }
 
-        public void Deletar(Endereco entidade)
+        public void Deletar(Endereco endereco)
         {
-            throw new System.NotImplementedException();
+            _contexto.Enderecos.Remove(endereco);
+            _contexto.SaveChanges();
         }
     }
 }
-

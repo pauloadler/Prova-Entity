@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
 using ProvaEntity.Domain.Features.Alunos;
 using ProvaEntity.Infra.Data.Contexts;
 
@@ -23,22 +25,24 @@ namespace ProvaEntity.Infra.Data.Features.Alunos
 
         public Aluno ObterPorId(long id)
         {
-            throw new System.NotImplementedException();
+            return _contexto.Alunos.Where(c => c.Id == id).FirstOrDefault();
         }
 
         public IList<Aluno> ObterTodos()
         {
-            throw new System.NotImplementedException();
+            return _contexto.Alunos.ToList();
         }
 
-        public void Atualizar(Aluno entidade)
+        public void Atualizar(Aluno aluno)
         {
-            throw new System.NotImplementedException();
+            _contexto.Entry(aluno).State = EntityState.Modified;
+            _contexto.SaveChanges();
         }
 
-        public void Deletar(Aluno entidade)
+        public void Deletar(Aluno aluno)
         {
-            throw new System.NotImplementedException();
+            _contexto.Alunos.Remove(aluno);
+            _contexto.SaveChanges();
         }
     }
 }

@@ -53,6 +53,7 @@
     <Compile Include="Features\Alunos\AlunoRepositorio.cs" />
     <Compile Include="Features\Enderecos\EnderecoEntityConfiguracao.cs" />
     <Compile Include="Features\Enderecos\EnderecoRepositorio.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,5 +70,6 @@
       <Name>ProvaEntity.Infra</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -62,9 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Features\Alunos\AlunoIntegracaoTest.cs" />
-    <Compile Include="Features\Alunos\AlunoService.cs" />
     <Compile Include="Features\Enderecos\EnderecoIntegracaoTest.cs" />
-    <Compile Include="Features\Enderecos\EnderecoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

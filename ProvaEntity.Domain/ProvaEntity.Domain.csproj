@@ -44,6 +44,7 @@
     <Compile Include="Base\ExcessaoNegocio.cs" />
     <Compile Include="Base\IdentificadorInvalidoExcessao.cs" />
     <Compile Include="Base\IRepositorio.cs" />
+    <Compile Include="Features\Alunos\AlunoNomeNuloOuVazioExcecao.cs" />
     <Compile Include="Features\Alunos\IAlunoRepositorio.cs" />
     <Compile Include="Features\Alunos\Aluno.cs" />
     <Compile Include="Features\Enderecos\Endereco.cs" />

@@ -14,51 +14,51 @@ namespace ProvaEntity.Domain.Tests.Features.Enderecos
             //_EnderecoDefault = EnderecoObjectMother.Default;
         }
 
-        [Test]
-        public void Dominio_Endereco_nao_deve_possuir_titulo_com_menos_de_quatro_caracteres()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Endereco_nao_deve_possuir_titulo_com_menos_de_quatro_caracteres()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Dominio_Endereco_nao_deve_possuir_tema_com_menos_de_quatro_caracteres()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Endereco_nao_deve_possuir_tema_com_menos_de_quatro_caracteres()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Dominio_Endereco_nao_deve_possuir_autor_com_menos_de_quatro_caracteres()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Endereco_nao_deve_possuir_autor_com_menos_de_quatro_caracteres()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Dominio_Endereco_nao_deve_possuir_volume_menor_que_zero()
-        {
-            //Arrange
+        //[Test]
+        //public void Dominio_Endereco_nao_deve_possuir_volume_menor_que_zero()
+        //{
+        //    //Arrange
 
-            //Action
+        //    //Action
 
-            //Assert
-        }
+        //    //Assert
+        //}
 
-        [Test]
-        public void Dominio_Endereco_deve_possuir_todos_os_dados_quando_estiverem_corretors_e_validados()
-        {
-            //Action-Arrange
+        //[Test]
+        //public void Dominio_Endereco_deve_possuir_todos_os_dados_quando_estiverem_corretors_e_validados()
+        //{
+        //    //Action-Arrange
             
-        }
+        //}
     }
 }
