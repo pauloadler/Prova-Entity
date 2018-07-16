@@ -69,7 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Features\Alunos\AlunoRepositorioTest.cs" />
+    <Compile Include="Features\Avaliacoes\AvaliacaoRepositorioTest.cs" />
     <Compile Include="Features\Enderecos\EnderecoRepositorioTests.cs" />
+    <Compile Include="Features\Resultados\ResultadoRepositorioTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

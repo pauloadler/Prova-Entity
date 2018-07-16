@@ -9,7 +9,7 @@ namespace ProvaEntity.Infra.Data.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(ProvaEntity.Infra.Data.Contexts.ProvaEntityDbContext context)

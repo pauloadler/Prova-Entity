@@ -1,7 +1,5 @@
-﻿using ProvaEntity.Common.Tests.Features.Alunos;
-using ProvaEntity.Common.Tests.Features.Enderecos;
-using ProvaEntity.Domain.Features.Alunos;
-using ProvaEntity.Domain.Features.Enderecos;
+﻿using ProvaEntity.Common.Tests.Features.Resultados;
+using ProvaEntity.Domain.Features.Resultados;
 using ProvaEntity.Infra.Data.Contexts;
 using System.Data.Entity;
 
@@ -11,16 +9,14 @@ namespace ProvaEntity.Common.Tests.Base
     {
         protected override void Seed(ProvaEntityDbContext contexto)
         {
-            Aluno aluno = AlunoObjectMother.Padrao;
-            Endereco endereco = EnderecoObjectMother.Padrao;
-
-            contexto.Alunos.Add(aluno);
-            contexto.Enderecos.Add(endereco);
+           
+            Resultado resultado = ResultadoObjectMother.Padrao;
+            
+            contexto.Resultados.Add(resultado);
 
             contexto.SaveChanges();
 
             base.Seed(contexto);
         }
-
     }
 }

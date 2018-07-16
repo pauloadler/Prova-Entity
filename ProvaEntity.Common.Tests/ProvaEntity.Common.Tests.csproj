@@ -49,7 +49,9 @@
   <ItemGroup>
     <Compile Include="Base\DadosParaTeste.cs" />
     <Compile Include="Features\Alunos\AlunoObjectMother.cs" />
+    <Compile Include="Features\Avaliacoes\AvaliacaoObjectMother.cs" />
     <Compile Include="Features\Enderecos\EnderecoObjectMother.cs" />
+    <Compile Include="Features\Resultados\ResultadoObjectMother.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
